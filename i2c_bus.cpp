@@ -21,7 +21,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
  ========================================================================= */
 
-#include "I2Cbus.hpp"
+#include "i2c_bus.hpp"
 #include <stdio.h>
 #include <stdint.h>
 #include "sdkconfig.h"

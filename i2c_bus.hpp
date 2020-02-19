@@ -21,8 +21,8 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
  ========================================================================= */
 
-#ifndef _I2CBUS_HPP_
-#define _I2CBUS_HPP_
+#ifndef _I2C_BUS_HPP_
+#define _I2C_BUS_HPP_
 
 #include <stdint.h>
 #include "driver/i2c.h"
@@ -162,4 +162,4 @@ constexpr I2C_t& getI2C(i2c_port_t port) {
 
 
 
-#endif /* end of include guard: _I2CBUS_H_ */
+#endif /* end of include guard: _I2C_BUS_H_ */
